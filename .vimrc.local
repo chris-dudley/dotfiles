@@ -1,0 +1,21 @@
+set bg=dark
+
+"UnBundle 'Lokaltog/vim-powerline'
+"UnBundle 'Lokaltog/powerline'
+
+"set rtp+=/home/cdudley/.local/lib/python2.7/site-packages/powerline/bindings/vim
+
+" Tabs are fine for whitespace
+"set listchars=trail:.,extends:#,nbsp:.
+
+let g:syntastic_cpp_compiler_options = ' -std=gnu++11'
+
+" honza/snipmate-snippets currently requires logging in to github for some
+" reason
+"UnBundle 'honza/snipmate-snippets'
+
+" Enable airline smarter tab line
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme = 'powerlineish'
+
+set pastetoggle=<F8>

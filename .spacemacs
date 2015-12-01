@@ -29,12 +29,14 @@ values."
      git
      markdown
      org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom
+            shell-default-term-shell "/bin/zsh")
      ;; spell-checking
      syntax-checking
      scala
+     javascript
      ;; version-control
      )
    ;; List of additional packages that will be installed without being

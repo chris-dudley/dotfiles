@@ -203,7 +203,11 @@ user code."
 layers configuration. You are free to put any user code."
   ;; Desktop saving configuration
   (desktop-save-mode t)
-  (setq desktop-dirname "~/.emacs-desktop/default")
+  (setq desktop-dirname         "~/.emacs.d/desktops/default/"
+        desktop-base-file-name  "emacs.desktop"
+        desktop-base-lock-name  "lock"
+        desktop-path            (list desktop-dirname)
+        desktop-load-locked-desktop t)
 
   ;; Scalastyle configuration for scala mode
   (setq flycheck-scalastyle-jar "~/tools/scalastyle/scalastyle_2.11-0.7.0.jar")

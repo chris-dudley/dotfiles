@@ -23,7 +23,7 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     ;; auto-completion
+     auto-completion
      ;; better-defaults
      emacs-lisp
      git
@@ -201,6 +201,12 @@ user code."
   "Configuration function for user code.
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
+  ;; Desktop saving configuration
+  (desktop-save-mode t)
+  (setq desktop-dirname "~/.emacs-desktop/default")
+
+  ;; Scalastyle configuration for scala mode
+  (setq flycheck-scalastyle-jar "~/tools/scalastyle/scalastyle_2.11-0.7.0.jar")
 )
 
 ;; Do not write anything past this comment. This is where Emacs will

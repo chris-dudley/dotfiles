@@ -40,7 +40,7 @@ values."
      rpm-spec
      php
      python
-     ;; version-control
+     version-control
      spotify
      themes-megapack
      )

@@ -38,7 +38,8 @@ values."
      scala
      javascript
      rpm-spec
-     ;;php
+     php
+     python
      ;; version-control
      spotify
      themes-megapack

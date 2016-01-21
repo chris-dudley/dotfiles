@@ -207,7 +207,7 @@ user code."
 layers configuration. You are free to put any user code."
   ;; Desktop saving configuration
   (desktop-save-mode t)
-  (setq desktop-dirname         "~/.emacs.d/desktops/default/"
+  (setq desktop-dirname         "~/.emacs.d/private/desktops/default/"
         desktop-base-file-name  "emacs.desktop"
         desktop-base-lock-name  "lock"
         desktop-path            (list desktop-dirname)

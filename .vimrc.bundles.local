@@ -1,1 +1,3 @@
 Bundle 'SudoEdit.vim'
+
+UnBundle 'amirh/HTML-AutoCloseTag'
